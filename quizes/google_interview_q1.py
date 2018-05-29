@@ -1,4 +1,4 @@
-from CheetSheets.runtime_timing import  timer
+from CheetSheets.runtime_timing import timer
 '''
  You are given two lists a and b with integers, that also can be negative,
  and a target sum.
@@ -20,3 +20,11 @@ b = [6, 4, 7, 9, 2]
 
 # SOLUTIONS:
 # time them at the end with the @timer followed by your solution.
+@timer
+def do_sthg():
+    for i in range(100):
+        b = i*i
+        print(b)
+
+do_sthg()
+

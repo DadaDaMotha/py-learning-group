@@ -22,11 +22,11 @@ def add(x,y=10):
 def sub(x,y=10):
     return x - y
 
-print("add(20)", add(20))
-print("add(20, 30)", add(20, 30))
-print("add('a', 'c')", add('a', 'c'))
-print("sub(20)", sub(20))
-print("add(20, 30)", sub(20, 30))
+# print("add(20)", add(20))
+# print("add(20, 30)", add(20, 30))
+# print("add('a', 'c')", add('a', 'c'))
+# print("sub(20)", sub(20))
+# print("add(20, 30)", sub(20, 30))
 
 # Different methods to time functions
 # from "What Does It Take To Be An Expert At Python?" [https://www.youtube.com/watch?v=7lmCu8wz8ro]
